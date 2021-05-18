@@ -5,3 +5,7 @@
 
 ขั้นตอนการรันโปรเจค<br>
 1.โหลดไฟล์จาก https://drive.google.com/file/d/1OG9wpjhLEgPLLd3-xGFD6OEss8DPVtaY/view?usp=sharing<br>
+แล้วเอาไปวางไว้ที่ CP353_FinalProject\flask-project\ml-model\variables จากการที่ไฟล์มีขนาดใหญ่เกินไปจึงทำให้ไม่สามารถอัพโหลดลง github ได้<br>
+2.เปิดโฟลเดอร์ flask-project ด้วย Visual Studio Code<br>
+3.รันโปรเจคผ่าน app.py<br>
+4.การเพิ่ม,อัพเดต,ลบ ข้อมูลจะต้องทำใน Swagger UI, Postman เท่านั้น<br>

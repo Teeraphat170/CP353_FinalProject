@@ -1,0 +1,99 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Fruit API
+paths:
+  /Fruit:
+    get:
+      tags:
+        - Fruit API
+      summary: Fruit API
+      parameters:
+      - name: name
+        in: query
+        description: Fruit name
+        schema:
+          type: string
+      responses:
+        '200':
+          description: search success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FruitSchemas"
+    post:
+        tags:
+          - Fruit API
+        summary: Fruit API create new Fruit
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FruitSchemas"
+        responses:
+          '200':
+            description: OK
+    put:
+      tags:
+        - Fruit API
+      summary: Fruit API Edit Fruit
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/editFruitSchema"
+      responses:
+        '200':
+          description: Successful create Fruit
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FruitSchemas"
+                
+  /Fruit/delete/{name}:
+    delete:
+      tags:
+          - Fruit API
+      summary: Fruit API Delete Fruit
+      parameters:
+        - name: name
+          in: path
+          description: Fruit name
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: Successful create Fruit
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FruitSchemas"
+components:
+  schemas:
+    FruitSchemas:
+      type: object
+      properties:
+        color:
+          type: string
+        name:
+          type: string
+        types:
+          type: string
+        pic:
+          type: string
+    editFruitSchema:
+      type: object
+      properties:
+        key:
+          type: string
+        color:
+          type: string
+        name:
+          type: string
+        types:
+          type: string
+        pic:
+          type: string

@@ -1,0 +1,18 @@
+avocado
+banana
+cherry
+green apple
+kiwi
+lemon
+lychee
+mango
+orange
+papaya
+peach
+pear
+pineapple
+plum
+raspberry
+red apple
+strawberry
+tomato

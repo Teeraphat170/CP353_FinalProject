@@ -14,4 +14,6 @@
 5.ตัวอย่างการใช้ Postman <br>
 &nbsp;&nbsp;&nbsp;Post : {"color" : "yellow","name" : "lemon","types" : "Citrus","pic" : "static/pic/lemon.jpg"}<br>
 &nbsp;&nbsp;&nbsp;Put : {"key" : "lemon","color" : "red","name" : "lemon","types" : "Citrus","pic" : "static/pic/lemon.jpg"}<br>
-&nbsp;&nbsp;&nbsp;Delete : http://localhost:5000/Fruit/delete/lemon
+&nbsp;&nbsp;&nbsp;Delete : http://localhost:5000/Fruit/delete/lemon<br>
+
+Google drive : https://drive.google.com/file/d/1jNImroXJdWp6XySp9StYXzSLnZCxQemD/view?usp=sharing

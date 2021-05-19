@@ -12,7 +12,7 @@
 3.รันโปรเจคผ่าน app.py<br>
 4.การเพิ่ม,อัพเดต,ลบ ข้อมูลจะต้องทำใน Swagger UI, Postman เท่านั้น<br>
 5.ตัวอย่างการใช้ Postman <br>
-&nbsp;&nbsp;&nbsp;Get : http://localhost:5000/Fruit?name=Green Apple<br>
+&nbsp;&nbsp;&nbsp;Get : http://localhost:5000/Fruit?name=Banana<br>
 &nbsp;&nbsp;&nbsp;Post : {"color" : "yellow","name" : "lemon","types" : "Citrus","pic" : "static/pic/lemon.jpg"}<br>
 &nbsp;&nbsp;&nbsp;Put : {"key" : "lemon","color" : "red","name" : "lemon","types" : "Citrus","pic" : "static/pic/lemon.jpg"}<br>
 &nbsp;&nbsp;&nbsp;Delete : http://localhost:5000/Fruit/delete/lemon<br>
